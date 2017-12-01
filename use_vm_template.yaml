@@ -1,0 +1,11 @@
+imports:
+- path: vm-template.jinja
+
+resources:
+- name: my-vm
+  type: vm-template.jinja
+  properties:
+    region: us-central1
+    zone: us-central1-a
+    source_image: cloudbreak-deployer-1165-2017-11-17
+    instance_type: n1-standard-2
