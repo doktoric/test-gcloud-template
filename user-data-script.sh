@@ -9,6 +9,7 @@ set -eo pipefail
 : ${DEPLOYER_LOCATION:="/var/lib/cloudbreak-deployment"}
 : ${CBD_VERSION:=1.16.5}
 : ${OS_USER:=cloudbreak}
+: ${PUBLIC_IP:=192.168.99.100}
 
 if [[ "$TRACE" ]]; then
     : ${START_TIME:=$(date +%s)}
