@@ -7,5 +7,5 @@ resources:
   properties:
     region: us-central1
     zone: us-central1-a
-    source_image: cloudbreak-deployer-1165-2017-11-17
+    source_image: centos-7-v20171129
     instance_type: n1-standard-2

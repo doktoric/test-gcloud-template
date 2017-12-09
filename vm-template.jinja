@@ -61,7 +61,7 @@ resources:
       boot: true
       autoDelete: true
       initializeParams:
-        sourceImage: https://www.googleapis.com/compute/v1/projects/{{ env['project'] }}/global/images/{{ properties["source_image"] }}
+        sourceImage: https://www.googleapis.com/compute/v1/projects/centos-cloud/global/images/{{ properties["source_image"] }}
     networkInterfaces:
     - subnetwork:  $(ref.{{ env["deployment"] }}-subnet.selfLink)
       accessConfigs:
